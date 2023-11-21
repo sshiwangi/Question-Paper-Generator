@@ -1,0 +1,184 @@
+[
+  {
+    "question": "Define electrostatics.",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "State Coulomb’s Law.",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "What is the value of the electron (e) charge?",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Neutral particles contain",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Which of the following is an example of electrostatics?",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "The electrostatic force is also known as the",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Coulomb’s law is given by the formula",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Electric field is a",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "In Coulomb’s law, ε is known as",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Define Static electricity.",
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "marks": 5
+  },
+  {
+    "question": "Is the motion of a charge across a junction momentum conserving? Why or why not?",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What is drift velocity?",
+    "subject": "Physics",
+    "topic": "Electric Current",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What are the advantages of the null-point method in a Wheatstone bridge? What additional measurements would be required to calculate Runknown by any other method?",
+    "subject": "Physics",
+    "topic": "Electric Circuits",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What is the advantage of using thick metallic strips to join wires in a potentiometer?",
+    "subject": "Physics",
+    "topic": "Electric Circuits",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "For wiring in the home, one uses Cu wires or Al wires. What considerations are involved in this?",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Why are alloys used for making standard resistance coils?",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "Power P is to be delivered to a device via transmission cables having resistance Rc. If V is the voltage across R and I is the current through it, find the power wasted and how it can be reduced.",
+    "subject": "Physics",
+    "topic": "Electric Power",
+    "difficulty": "Medium",
+    "marks": 10
+  },
+  {
+    "question": "What are electromagnetic waves?",
+    "subject": "Physics",
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "What is the significance of frequency in electromagnetic waves?",
+    "subject": "Physics",
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Write a brief about the usual wavelength spectrum of electromagnetic waves.",
+    "subject": "Physics",
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "What are the common examples of electromagnetic waves?",
+    "subject": "Physics",
+    "topic": "Electromagnetic Waves",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Write a brief about electromagnetic waves and quantum mechanics.",
+    "subject": "Physics",
+    "topic": "Quantum Mechanics",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Write a brief about the daily life applications of electromagnetic waves.",
+    "subject": "Physics",
+    "topic": "Applications of Electromagnetic Waves",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "What electromagnetic waves are used to examine the crystal structure of solids?",
+    "subject": "Physics",
+    "topic": "Crystallography",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Which section of the electromagnetic spectrum is absorbed from sunlight by the ozone layer?",
+    "subject": "Physics",
+    "topic": "Atmospheric Physics",
+    "difficulty": "Hard",
+    "marks": 15
+  },
+  {
+    "question": "Electromagnetic waves are generated by which particles that are in the state of acceleration.",
+    "subject": "Physics",
+    "topic": "Particle Physics",
+    "difficulty": "Hard",
+    "marks": 15
+  }
+]
