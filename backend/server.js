@@ -26,7 +26,7 @@ app.post("/api/generate-paper", (req, res) => {
       medium,
       hard
     );
-    console.log("Selected Questions:", selectedQuestions);
+    // console.log("Selected Questions:", selectedQuestions);
 
     res.json({
       message: "Paper generated successfully",

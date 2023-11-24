@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Input from "../components/Input";
-// import Select from '../components/Select'
-
+import Question from "../components/Question";
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -12,7 +11,6 @@ function CreatePaper() {
     easy: 0,
     medium: 0,
     hard: 0,
-    // basis: "",
   };
   const [formData, setFormData] = useState(initialState);
 const [selectedQuestions, setSelectedQuestions] = useState([]);
@@ -37,7 +35,7 @@ const [selectedQuestions, setSelectedQuestions] = useState([]);
       });
       const data = await response.json();
       if (response.ok) {
-        console.log(data.message);
+        // console.log(data.message);
         setSelectedQuestions(data.data.questions);
       } else {
         console.error(data.error);
@@ -71,14 +69,6 @@ const [selectedQuestions, setSelectedQuestions] = useState([]);
     <form onSubmit={handleSubmit} className="mx-auto mt-16 max-w-xl sm:mt-20">
       <div className="space-y-12">
         <div className="border-b border-gray-900/10 pb-12">
-          {/* <h2 className="text-base font-semibold leading-7 text-gray-900">
-            Create Paper
-          </h2>
-          <p className="mt-1 text-sm leading-6 text-gray-600">
-            Craft personalized question papers effortlessly by providing these
-            details.
-          </p> */}
-
           <div className="mt-10">
             <div className="sm:col-span-4">
               <Input
@@ -97,7 +87,6 @@ const [selectedQuestions, setSelectedQuestions] = useState([]);
           </div>
           <div className="mt-10">
             <div className="sm:col-span-4">
-              {/* <Select onBasisChange={(basis) => handleInputChange('basis', basis)}/> */}
               <Input
                 for="easy"
                 label="Easy"
@@ -149,9 +138,6 @@ const [selectedQuestions, setSelectedQuestions] = useState([]);
       </div>
 
       <div className="mt-6 flex items-center justify-center gap-x-6">
-        {/* <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
-          Cancel
-        </button> */}
         <button
           type="submit"
           className="w-full rounded-md bg-reelobg px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-reelobg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-reelobg"
@@ -159,17 +145,21 @@ const [selectedQuestions, setSelectedQuestions] = useState([]);
           Generate
         </button>
       </div>
-       {/* Display the picked questions */}
       {selectedQuestions.length > 0 && (
-        <div className="mt-6">
-          <h2 className="text-lg font-semibold">Picked Questions</h2>
-          <ul>
-            {selectedQuestions.map((question) => (
-              <li>{question.question}</li>
-            ))}
-          </ul>
-        </div>
-      )}
+          <div className="mt-6">
+            <h2 className="text-lg font-semibold">Picked Questions</h2>
+            <div className="rounded-md overflow-hidden border border-gray-300">
+              {selectedQuestions.map((question, index) => (
+                <Question
+                  key={index}
+                  number={`Q${index + 1}`}
+                  text={question.question}
+                  isLast={index === selectedQuestions.length - 1}
+                />
+              ))}
+            </div>
+          </div>
+        )}
     </form>
     </div>
   );

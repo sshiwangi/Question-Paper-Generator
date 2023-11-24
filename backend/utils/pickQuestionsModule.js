@@ -25,16 +25,6 @@ function pickQuestions(
       hardQuestionsList.push(question);
     }
   }
-  // console.log(easyQuestionsList);
-  // if (
-  //   easyMarks % easyQuestionsList[0].marks !== 0 ||
-  //   mediumMarks % mediumQuestionsList[0].length !== 0 ||
-  //   hardMarks % hardQuestionsList[0].length !== 0
-  // ){
-  //   throw new Error(
-  //     "Choose other percentage for easy, medium or hard questions"
-  //   );
-  // }
   if (
     easyQuestionsList.length === 0 ||
     mediumQuestionsList.length === 0 ||
@@ -48,7 +38,6 @@ function pickQuestions(
   let easyQuestions = Math.floor(easyMarks / easyQuestionsList[0].marks);
   let mediumQuestions = Math.floor(mediumMarks / mediumQuestionsList[0].marks);
   let hardQuestions = Math.floor(hardMarks / hardQuestionsList[0].marks);
-  console.log({ easyQuestions, mediumQuestions, hardQuestions });
 
   let easyCount = 0;
   let mediumCount = 0;
@@ -96,7 +85,6 @@ function pickQuestions(
       "Not enough questions for the selected percentages. Please choose other percentages."
     );
   }
-  // console.log(questions);
   return questions;
 }
 

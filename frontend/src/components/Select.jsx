@@ -73,14 +73,6 @@ export default function Select({onBasisChange}) {
     );
   };
 
-//   useEffect(() => {
-//     console.log('Selected basis', selected.basis);
-
-//     if (onBasisChange) {
-//       onBasisChange(selected.basis);
-//     }
-//   }, [selected, onBasisChange]);
-
 
   return (
     <Listbox value={selected} onChange={(value) => {

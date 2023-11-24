@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Main from "./pages/Main";
 import CreatePaper from "./pages/CreatePaper";
+import QuestionPaper from "./pages/QuestionPaper";
 
 function App() {
   return (
