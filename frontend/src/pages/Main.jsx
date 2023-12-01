@@ -29,11 +29,13 @@ function Main() {
                   <div className="flex items-center">
                     <div className="flex">
                         <a href="/main">
-                      <img
+                          <span className=" text-lg font-semibold leading-6 text-gray-900">QuestionCraft</span>
+                      {/* <img
                         className="h-8 w-auto"
                         src="https://www.reelo.io/_next/image?url=%2Freelo_new.svg&w=96&q=100"
                         alt="Your Company"
-                      /></a>
+                      /> */}
+                      </a>
                     </div>
                     {/* <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">

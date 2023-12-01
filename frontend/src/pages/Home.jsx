@@ -20,12 +20,12 @@ function Home() {
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Reelo QuestionCraft</span>
-              <img
+              <span className=" text-lg font-semibold leading-6 text-gray-900">QuestionCraft</span>
+              {/* <img
                 className="h-8 w-auto"
                 src="https://www.reelo.io/_next/image?url=%2Freelo_new.svg&w=96&q=100"
                 alt=""
-              />
+              /> */}
             </a>
           </div>
           <div className="flex lg:hidden">
